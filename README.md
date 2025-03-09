@@ -44,10 +44,10 @@ uvicorn main:app --reload
 ```
 
 ### **7. Chạy Streamlit để sử dụng**  
-Bạn có thể gửi truy vấn đến API bằng cách sử dụng cURL hoặc Postman:  
+Nhập câu hỏi liên quan đến tài liệu hoặc up tài liệu khác để có câu trả lời về tài liệu 
 
 ```sh
-streamlit run app.pypy
+streamlit run app.py
 ```
 
 
