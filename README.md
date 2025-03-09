@@ -1,0 +1,58 @@
+
+# **Hệ Thống Hỏi-Đáp Sử Dụng RAG và LLM**  
+
+## **Giới Thiệu**  
+Đây là một hệ thống Hỏi-Đáp (Q&A) sử dụng **Retrieval-Augmented Generation (RAG)** kết hợp với mô hình ngôn ngữ lớn (**LLM**).  
+Hệ thống cho phép tải lên tài liệu, xử lý văn bản thành **vector embeddings** (FAISS, ChromaDB) và tạo câu trả lời bằng **LLM** (GPT-4, Mistral, LLaMA, Gemini).  
+
+
+
+## **Cách Cài Đặt & Chạy Dự Án**  
+
+### **1. Clone Dự Án**  
+```sh
+git clone https://github.com/your-repo/project-name.git
+cd project-name
+```
+
+### **2. Tạo và Kích Hoạt Môi Trường Ảo**  
+```sh
+python -m venv venv # Windown
+```
+
+### **3. Cài Đặt Dependencies**  
+```sh
+pip install -r requirements.txt
+```
+
+### **4. Cấu Hình Biến Môi Trường**  
+Tạo tệp `.env` và thêm API keys:  
+```ini
+GEMINI_API_KEY=your_gemini_api_key
+document=your_document_path
+```
+
+### **5. Xử Lý Tài Liệu & Tạo FAISS Index**  
+```sh
+python document_processing.py
+```
+
+### **6. Chạy API Backend**  
+#### **Chạy với FastAPI**  
+```sh
+uvicorn main:app --reload
+```
+
+### **7. Chạy Streamlit để sử dụng**  
+Bạn có thể gửi truy vấn đến API bằng cách sử dụng cURL hoặc Postman:  
+
+```sh
+streamlit run app.pypy
+```
+
+
+## **Liên Hệ**  
+📧 Email: voquangtri2708@gmail.com  
+🔗 GitHub: [your-repo](https://github.com/voquangtri2708)  
+
+---
