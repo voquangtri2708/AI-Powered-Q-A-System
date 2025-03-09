@@ -11,8 +11,8 @@ Hệ thống cho phép tải lên tài liệu, xử lý văn bản thành **vect
 
 ### **1. Clone Dự Án**  
 ```sh
-git clone https://github.com/your-repo/project-name.git
-cd project-name
+git clone https://github.com/voquangtri2708/AI-Powered-Q-A-System.git
+cd AI-Powered-Q-A-System
 ```
 
 ### **2. Tạo và Kích Hoạt Môi Trường Ảo**  
@@ -53,6 +53,6 @@ streamlit run app.pypy
 
 ## **Liên Hệ**  
 📧 Email: voquangtri2708@gmail.com  
-🔗 GitHub: [your-repo](https://github.com/voquangtri2708)  
+🔗 GitHub: [voquangtri2708](https://github.com/voquangtri2708)  
 
 ---
