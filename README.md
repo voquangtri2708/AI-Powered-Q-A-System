@@ -3,7 +3,7 @@
 
 ## **Giới Thiệu**  
 Đây là một hệ thống Hỏi-Đáp (Q&A) sử dụng **Retrieval-Augmented Generation (RAG)** kết hợp với mô hình ngôn ngữ lớn (**LLM**).  
-Hệ thống cho phép tải lên tài liệu, xử lý văn bản thành **vector embeddings** (FAISS, ChromaDB) và tạo câu trả lời bằng **LLM** (GPT-4, Mistral, LLaMA, Gemini).  
+Hệ thống cho phép tải lên tài liệu, xử lý văn bản thành **vector embeddings** (FAISS) và tạo câu trả lời bằng **LLM** (Gemini).  
 
 
 
